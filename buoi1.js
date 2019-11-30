@@ -7,4 +7,4 @@ hello
 //kiem tra trang thai: git status
 //luu vao git tam: git add tenfile hoac git add . de luu tat ca
 //commit : git commit -m "noi dung ghi chu"
-//
+//xem lich su commit: git log 
