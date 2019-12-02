@@ -28,9 +28,18 @@ console.log(bb)*/
 //     }
 // }
 // console.log(teo)
+// console.log(teo.name)
+// console.log(teo['name'])
+// console.log(teo['nameabc'])
+//Neu truy cap thuoc tinh khong ton tai trong object thi se tra ve undefined
 // 4: Array
-const arrNames = ["Teo","Ti","Tun"]
-console.log(arrNames)
-console.log(arrNames[1])
-arrNames[1] = "Titi"
-console.log(arrNames[1])
+// const arrNames = ["Teo","Ti","Tun"]
+// console.log(arrNames)
+// console.log(arrNames[1])
+// arrNames[1] = "Titi"
+// console.log(arrNames[1])
+
+// 5 : Toan tu => bieu thuc a + b
+// Toan tu mot ngoi: a + b , a - b - c, a * b 
+// Toa tu hai ngoi: a++, ++a, a--, --aa
+// Toa tu ba ngoi: dieukien? true: false
