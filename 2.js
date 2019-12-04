@@ -43,3 +43,9 @@ console.log(bb)*/
 // Toan tu mot ngoi: a + b , a - b - c, a * b 
 // Toa tu hai ngoi: a++, ++a, a--, --aa
 // Toa tu ba ngoi: dieukien? true: false
+var a = "30" + 7
+console.log(a)
+var b = parseInt("100")
+console.log(b)
+var c = (+"1.1")+(+"1.1")
+console.log(c)
