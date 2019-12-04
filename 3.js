@@ -29,19 +29,57 @@
 //     }
 // }
 // console.log(teo.speakLanguage())
-const rectangle = {
-    width: 20,
-    height: 10,
-    getWidth: function(){
-        console.log(this.width)
-    },
-    getHeight: function(){
-        console.log(this.height)
-    },
-    getArea: function(){
-        console.log(this.width*this.height)
-    }
+// const rectangle = {
+//     width: 20,
+//     height: 10,
+//     getWidth: function(){
+//         console.log(this.width)
+//     },
+//     getHeight: function(){
+//         console.log(this.height)
+//     },
+//     getArea: function(){
+//         console.log(this.width*this.height)
+//     }
+// }
+// rectangle.getWidth()
+// rectangle.getHeight()
+// rectangle.getArea()
+// var a = 10
+// function aa(x){
+//     x = x * x
+// }
+// aa(a)
+// console.log(a)
+// Cac phep so sanh
+// var a = 5,b = 6
+//6 gia tri la false: 0, null, false, undefined, NaN, ""
+// if(a){
+//     console.log("Nhay vao if")
+// }else{
+//     console.log("Nhay vao else")
+// }
+//(a,b) => bieu thuc dau phay, tinh gia tri ben trai va in ra gia tri benh phai
+//Gia tri cua null la: 0
+// console.log(a+null)
+//So sanh gia tri ==, khong phai so sanh kieu du lieu. Gia tri tra trong bang ma ASCII
+//Ket qua tra ve true
+//Kieu du lieu Nguyen thuy
+// var a = 5
+// var b = '5'
+// console.log(a==b)
+// //So sanh gia tri va kieu du lieu ===
+// //Ket qua tra ve false
+// console.log(a===b)
+
+//So sanh Object
+//Khong the so sanh 2 Object voi nhau duoc, no se so sanh vung nho
+const teo = {name:5}
+const ti  = {name:5}
+if(teo<ti){
+    console.log("Teo lon hon ti")
+}else{
+    console.log("Teo nho hon ti")
 }
-rectangle.getWidth()
-rectangle.getHeight()
-rectangle.getArea()
+
+
