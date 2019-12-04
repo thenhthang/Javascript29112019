@@ -46,16 +46,17 @@
 // }
 // console.log(getBoxVolumn(10,20,30))
 //a = a+ 1; a+=1; a++
-function myFunc(theObject){
-    theObject.make = "Toyota"
-    return theObject.model
-}
-var myCar = {
-    make: "Honda",
-    model: "Accord",
-    year: 1990
-}
-console.log(myFunc(myCar))
-console.log(myCar.make)
-var hinhvuong = function(so){return so*so}
-console.log(hinhvuong(4))
+// function myFunc(theObject){
+//     theObject.make = "Toyota"
+//     return theObject.model
+// }
+// var myCar = {
+//     make: "Honda",
+//     model: "Accord",
+//     year: 1990
+// }
+// console.log(myFunc(myCar))
+// console.log(myCar.make)
+// var hinhvuong = function(so){return so*so}
+// console.log(hinhvuong(4))
+
