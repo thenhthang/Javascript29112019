@@ -73,13 +73,36 @@
 // console.log(a===b)
 
 //So sanh Object
-//Khong the so sanh 2 Object voi nhau duoc, no se so sanh vung nho
-const teo = {name:5}
-const ti  = {name:5}
-if(teo<ti){
-    console.log("Teo lon hon ti")
-}else{
-    console.log("Teo nho hon ti")
+//Khong the so sanh 2 Object voi nhau duoc, no se so sanh vung nho, luon tra ve fale
+// const teo = {name:5}
+// const ti  = {name:5}
+// if(teo<ti){
+//     console.log("Teo lon hon ti")
+// }else{
+//     console.log("Teo nho hon ti")
+// }
+
+//11 : Vong lap
+
+// var arrNames = ["Teo","Ti","Tun","Ton"]
+// for( var i=0; i<arrNames.length; i++){
+//     console.log(arrNames[i])
+// }
+// for(var ele of arrNames){
+//     console.log(ele)
+// }
+// var oTree = {
+//     color: "Red",
+//     height: 10,
+//     age: 1
+// }
+// for(var i of oTree){
+//     console.log(i)
+// }
+function a(animal){
+    console.log(animal.name)
 }
-
-
+var b = {
+    name:"Cho"
+}
+a(b)
