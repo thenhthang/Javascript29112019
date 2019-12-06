@@ -25,5 +25,12 @@ const numbers = [1,2,3,4,5]
 // numbers.unshift(-1,0)
 // console.log(numbers)
 //4. Xoa phan tu vi tri dau tien
-numbers.shift()
+// numbers.shift()
+// console.log(numbers)
+//5. Xoa phan tu vao vi tri bat kieu
+// numbers.splice(2,1)
+// console.log(numbers)
+//6 Them phan tu vao vi tri bat ky
+numbers.splice(2,0,"haha")
 console.log(numbers)
+
