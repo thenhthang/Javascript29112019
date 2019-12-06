@@ -99,10 +99,11 @@
 // for(var i of oTree){
 //     console.log(i)
 // }
-function a(animal){
-    console.log(animal.name)
-}
-var b = {
-    name:"Cho"
-}
-a(b)
+// function a(animal){
+//     console.log(animal.name)
+// }
+// var b = {
+//     name:"Cho"
+// }
+// a(b)
+//**Vong lap for, for in, for of */

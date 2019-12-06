@@ -60,3 +60,35 @@
 // var hinhvuong = function(so){return so*so}
 // console.log(hinhvuong(4))
 
+// var a = function(){console.log("Con meo")}
+// function b(){console.log("Con cho")}
+// var c = [function(){return "Dien"},{name:"Teo",age:10},10,"Yellow"]
+// a()
+// b()
+// for(var e of c){
+//     console.log(e)
+// }
+// console.log(c[0]())
+// var a = 5
+// var b = '5'
+// console.log("So sanh ==, so sanh gia tri:",a==b)
+// console.log("So sanh > hoac <: luon tra ve false",a<b)
+var apartment = {
+    bedroom: {
+        area: 20,
+        bed: {
+            type: 'twin-bed',
+            price: 100
+        }
+    },
+    color: "red"
+}
+function getkey(obj){
+    for(var e in obj){
+        console.log(e)
+        if(typeof(obj[e])=="object"){
+            getkey(obj[e])
+        }
+    }
+}
+getkey(apartment)
