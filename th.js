@@ -73,6 +73,8 @@
 // var b = '5'
 // console.log("So sanh ==, so sanh gia tri:",a==b)
 // console.log("So sanh > hoac <: luon tra ve false",a<b)
+//**
+//** THUC HANH BUOI 3 */
 var apartment = {
     bedroom: {
         area: 20,
@@ -80,15 +82,29 @@ var apartment = {
             type: 'twin-bed',
             price: 100
         }
-    },
-    color: "red"
+    }
 }
 function getkey(obj){
     for(var e in obj){
-        console.log(e)
+        console.log("key:",e)
         if(typeof(obj[e])=="object"){
             getkey(obj[e])
         }
     }
 }
-getkey(apartment)
+function getkeykhongdequi(obj){
+    for(var e in obj){
+        console.log("key:",e)
+        for(var ee in obj[e]){
+            console.log("key 1:",ee)
+            for(var eee in obj[e][ee]){
+                console.log("key 2:",eee)
+            }
+        }
+    }
+}
+getkeykhongdequi(apartment)
+var chuoi = "tran ngoc quoc"
+for(var i of chuoi){
+    console.log(i)
+}
