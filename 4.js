@@ -56,3 +56,14 @@
 //     console.log("Ket thuc luc: 6h")
 // }
 // giangVien.thoigianday(ketThucDay)
+function double(num){
+    console.log(num * num)
+}
+function sumAndDo(nums,callBack){
+    var tong = 0
+    for(var gt of nums){
+        tong += gt
+    }
+    callBack(tong)
+}
+sumAndDo([1,2,3],double)
