@@ -75,36 +75,48 @@
 // console.log("So sanh > hoac <: luon tra ve false",a<b)
 //**
 //** THUC HANH BUOI 3 */
-var apartment = {
-    bedroom: {
-        area: 20,
-        bed: {
-            type: 'twin-bed',
-            price: 100
-        }
+// var apartment = {
+//     bedroom: {
+//         area: 20,
+//         bed: {
+//             type: 'twin-bed',
+//             price: 100
+//         }
+//     }
+// }
+// function getkey(obj){
+//     for(var e in obj){
+//         console.log("key:",e)
+//         if(typeof(obj[e])=="object"){
+//             getkey(obj[e])
+//         }
+//     }
+// }
+// function getkeykhongdequi(obj){
+//     for(var e in obj){
+//         console.log("key:",e)
+//         for(var ee in obj[e]){
+//             console.log("key 1:",ee)
+//             for(var eee in obj[e][ee]){
+//                 console.log("key 2:",eee)
+//             }
+//         }
+//     }
+// }
+// getkeykhongdequi(apartment)
+// var chuoi = "tran ngoc quoc"
+// for(var i of chuoi){
+//     console.log(i)
+// }
+function transform(numbers,callback){
+    var results = []
+    for(var e of numbers){
+        results.push(callback(e))
     }
+    return results
 }
-function getkey(obj){
-    for(var e in obj){
-        console.log("key:",e)
-        if(typeof(obj[e])=="object"){
-            getkey(obj[e])
-        }
-    }
+function double(number){
+    return number * 2
 }
-function getkeykhongdequi(obj){
-    for(var e in obj){
-        console.log("key:",e)
-        for(var ee in obj[e]){
-            console.log("key 1:",ee)
-            for(var eee in obj[e][ee]){
-                console.log("key 2:",eee)
-            }
-        }
-    }
-}
-getkeykhongdequi(apartment)
-var chuoi = "tran ngoc quoc"
-for(var i of chuoi){
-    console.log(i)
-}
+var output = transform([2,4,6],double)
+console.log(output)
