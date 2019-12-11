@@ -55,5 +55,13 @@
 // var a = 5, b = 10
 // console.log(a > b ? "A>B":"A<B")
 
-
+//** Functional scope */
+//** Block scope : {} */
+var a = 1
+function show(){
+    var a = 2
+    console.log(a)
+}
+show()
+console.log(a)
 
