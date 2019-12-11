@@ -57,11 +57,28 @@
 
 //** Functional scope */
 //** Block scope : {} */
-var a = 1
-function show(){
-    var a = 2
-    console.log(a)
+// var a = 1
+// function show(){
+//     var a = 2
+//     console.log(a)
+// }
+// show()
+// console.log(a)
+
+//**  */
+
+// Hoisting: Khi dung a. js se tu khoi tao ra a cho viec su dung, phan khai bao tu dong duoc dua len truoc
+// function show(){
+//     console.log(a)
+//     var a = 5
+// }
+// show()
+
+//** var:  */
+var i = 100
+for(var i = 0;i<=10;i++){
+    console.log(i)
 }
-show()
-console.log(a)
+console.log("i",i)
+//** Su dung let, const : tranh tinh trang redecle, tranh tinh trang Hoisting */
 
