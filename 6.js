@@ -75,10 +75,28 @@
 // show()
 
 //** var:  */
-var i = 100
-for(var i = 0;i<=10;i++){
-    console.log(i)
-}
-console.log("i",i)
+// var i = 100
+// for(var i = 0;i<=10;i++){
+//     console.log(i)
+// }
+// console.log("i",i)
 //** Su dung let, const : tranh tinh trang redecle, tranh tinh trang Hoisting */
 
+//** function context va bind */
+
+//funtion context: function ben trong mot Object
+// bind: dung de dinh nghia cho tu khoa this la gi
+var mouse = {
+    name : "Mickey",
+    sayhi: function(){
+        console.log('Hi',this.name)
+    }
+}
+// Cach 1
+//var say = mouse.sayhi
+//say.bind({name:"teo"})()
+// Cach 2
+var say = mouse.sayhi.bind({name:"Teo"})
+say()
+//say()
+// console.log(this)
