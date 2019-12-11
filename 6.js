@@ -86,17 +86,19 @@
 
 //funtion context: function ben trong mot Object
 // bind: dung de dinh nghia cho tu khoa this la gi
-var mouse = {
-    name : "Mickey",
-    sayhi: function(){
-        console.log('Hi',this.name)
-    }
-}
-// Cach 1
-//var say = mouse.sayhi
-//say.bind({name:"teo"})()
-// Cach 2
-var say = mouse.sayhi.bind({name:"Teo"})
-say()
-//say()
-// console.log(this)
+// var mouse = {
+//     name : "Mickey",
+//     sayhi: function(){
+//         console.log('Hi',this.name)
+//     }
+// }
+// // Cach 1
+// //var say = mouse.sayhi
+// //say.bind({name:"teo"})()
+// // Cach 2
+// var say = mouse.sayhi.bind({name:"Teo"})
+// say()
+// //say()
+// // console.log(this)
+
+//**  */
