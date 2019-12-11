@@ -14,13 +14,46 @@
 // console.log(Math.sqrt(number))
 
 //** Handle Object : Xu li trong Object */
+
 // Xoa mot thuoc tinh trong Object
-const teo = {
-    name : "Nguyen van teo",
-    age : 5,
-    address: "Quan 12"
-}
-delete teo.age
-console.log(teo)
-console.log(Object.keys(teo).length)
-console.log(Object.keys(teo))
+// const teo = {
+//     name : "Nguyen van teo",
+//     age : 5,
+//     address: "Quan 12"
+// }
+// delete teo.age
+// console.log(teo)
+// console.log(Object.keys(teo).length)
+// console.log(Object.keys(teo))
+
+//** Prototype */
+
+// Prototype chi khoi tao mot lan, cac doi tuong su dung no se ke thua lai, khong can khoi tao lai
+//Tao lop doi tuong
+// function Person(Name,Age){
+//     this.name = Name
+//     this.age = Age
+//     this.showName = function(){
+//         console.log(this.name)
+//     }
+// }
+// // const teo = new Person("Tran van teo",5)
+// // console.log(teo)
+// // teo.showName()
+// Person.prototype.showAge = function(){
+//     console.log(this.age)
+// }
+// const teo = new Person("Nguyen van teo",5)
+// const ti = new Person("Nguyen van teo",5)
+
+// console.log(teo.showAge === ti.showAge)
+// console.log(teo.showName === ti.showName)
+
+//** Toan tu 3 ngoi */
+
+//Khong nen su dung nhieu vi render giao dien rat cham
+// var a = 5, b = 10
+// console.log(a > b ? "A>B":"A<B")
+
+
+
